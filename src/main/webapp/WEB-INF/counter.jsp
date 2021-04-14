@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Counter</title>
+    <title>Example</title>
     <link rel="stylesheet" href="/webjars/bootstrap/4.5.0/css/bootstrap.min.css" />
     <script src="/webjars/jquery/3.5.1/jquery.min.js"></script>
     <script src="/webjars/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -16,8 +16,9 @@
 
 <body>
     <div class="container">
-        <h1>Welcome <c:out value="${user}"/></h1>
-        <a href="/counter">Got to Counter!</a>
+        <p>You have visted this site: <c:out value="${count}"/> times.</p>
+        <a href="/">Test Another Visit?</a>
+        <a href="/counter">Add to the Count!</a>
     </div>
 </body>
 
